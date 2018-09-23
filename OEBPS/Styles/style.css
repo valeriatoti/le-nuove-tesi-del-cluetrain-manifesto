@@ -173,6 +173,10 @@ section#notice ul li {
   font-size: 0.9em;
 }
 
+section#notice p cite {
+  display: block;
+}
+
 aside {
    line-height: normal;
    font-size: smaller;
