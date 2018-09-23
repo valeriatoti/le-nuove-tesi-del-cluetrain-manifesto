@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url('../Fonts/SourceSansPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ubuntu Mono Bold';
+    src: url('../Fonts/UbuntuMono-B.ttf');
+}
+
+body {
+  font-family: "SourceSansPro", Seravek, "Myriad Pro", sans-serif;
+	line-height: 1.5em;
+}
+h1 {
+  font-family: 'Ubuntu Mono Bold', monospace;
+  font-size: 1.8em;
+	line-height: 1em;
+  text-transform: uppercase;
+  margin-top: 3em;
+  margin-bottom: 0.8em;
+  font-weight: 300;
+}
+
+nav#landmarks {
+    display:none;
+}
+
+nav#page-list {
+    display:none;
+}
+
+ol {
+  list-style-type: none;
+	padding-left: 0;
+}
+
+ol>li>ol {
+padding-left: 4%;
+}
+

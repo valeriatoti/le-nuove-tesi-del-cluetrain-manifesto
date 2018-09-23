@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" prefix="rendition: http://www.idpf.org/vocab/rendition/# schema: http://schema.org/ a11y: http://www.idpf.org/epub/vocab/package/a11y/ ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Le nuove tesi del Cluetrain Manifesto</dc:title>
+    <dc:language>it</dc:language>
+    <dc:creator id="cre">Doc Searls, David Weinberger</dc:creator>
+    <meta scheme="marc:relators" refines="#cre" property="role">aut</meta>
+    <dc:rights>Questo documento è soggetto a una licenza Creative Commons by-sa 4.0 International.</dc:rights>
+    <dc:publisher>ebookaccessibili.it</dc:publisher>
+    <dc:contributor id="translator">Maria Chiara Pievatolo</dc:contributor>
+    <meta scheme="marc:relators" refines="#translator" property="role">trl</meta>
+    <dc:contributor id="ebookdeveloper">Valeria Toti</dc:contributor>
+    <meta scheme="marc:relators" refines="#ebookdeveloper" property="role">mrk</meta>
+    <dc:contributor id="ebookdesigner">Valeria Toti</dc:contributor>
+    <meta scheme="marc:relators" refines="#ebookdesigner" property="role">bkd</meta>
+    <dc:identifier id="BookId">urn:uuid:754b9b01-3711-41cb-983e-4540478e1b32</dc:identifier>
+    <meta name="Sigil version" content="0.9.8" />
+    <meta property="dcterms:modified">2018-09-23T15:20:51Z</meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="schema:accessibilitySummary">Questa pubblicazione è conforme alle WCAG 2.0 Livello AA.</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessibilityControl">fullKeyboardControl</meta>
+    <meta property="schema:accessibilityControl">fullMouseControl</meta>
+    <meta property="schema:accessibilityControl">fullTouchControl</meta>
+    <meta property="schema:accessibilityHazard">noFlashing</meta>
+    <meta property="schema:accessibilityHazard">noSound</meta>
+    <meta property="schema:accessibilityHazard">noMotionSimulation</meta>
+    <meta property="a11y:certifiedBy">EbookAccessibili.it</meta>
+    <link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo" />
+    <link href="onix.xml" rel="onix-record" />
+    <meta name="cover" content="cover.jpg" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="TitlePage.xhtml" href="Text/TitlePage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section001.xhtml" href="Text/Section001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section002.xhtml" href="Text/Section002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="notice.xhtml" href="Text/notice.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SourceSansPro-Bold.otf" href="Fonts/SourceSansPro-Bold.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="SourceSansPro-It.otf" href="Fonts/SourceSansPro-It.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="SourceSansPro-Regular.otf" href="Fonts/SourceSansPro-Regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="UbuntuMono-B.ttf" href="Fonts/UbuntuMono-B.ttf" media-type="application/x-font-ttf"/>
+    <item id="Section003.xhtml" href="Text/Section003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
+    <item id="copyright.xhtml" href="Text/copyright.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="TitlePage.xhtml"/>
+    <itemref idref="copyright.xhtml"/>
+    <itemref idref="notice.xhtml"/>
+    <itemref idref="nav.xhtml"/>
+    <itemref idref="Section001.xhtml"/>
+    <itemref idref="Section002.xhtml"/>
+    <itemref idref="Section003.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="toc" title="Sommario" href="Text/nav.xhtml"/>
+    <reference type="cover" title="Copertina" href="Text/cover.xhtml"/>
+  </guide>
+</package>

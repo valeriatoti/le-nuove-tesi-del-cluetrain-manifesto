@@ -1,0 +1,66 @@
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" release="3.0">
+		<Header>
+			<Sender>
+				<SenderName>ebook accessibili</SenderName>
+			</Sender>
+			<Addressee>
+				<AddresseeName>ebookaccessibili.it</AddresseeName>
+			</Addressee>
+			<SentDateTime>2018-09-24T00:00:00Z</SentDateTime>
+		</Header>
+		<Product>
+			<DescriptiveDetail>
+				<ProductComposition>00</ProductComposition>
+				<ProductForm>ED</ProductForm>
+				<ProductFormDetail>E101</ProductFormDetail>
+				<ProductFormDetail>E200</ProductFormDetail>
+				<ProductFormDetail>E202</ProductFormDetail>
+				<ProductFormFeature>
+					<ProductFormFeatureType>15</ProductFormFeatureType>
+					<ProductFormFeatureValue>101C</ProductFormFeatureValue>
+					<ProductFormFeatureDescription>ePub 3.0</ProductFormFeatureDescription>
+				</ProductFormFeature>
+				<ProductFormFeature>
+					<ProductFormFeatureType>16</ProductFormFeatureType>
+					<ProductFormFeatureValue>4.0.2</ProductFormFeatureValue>
+					<ProductFormFeatureDescription>EPUBCheck</ProductFormFeatureDescription>
+				</ProductFormFeature>
+				<!--Accessibility Specification-->
+				<ProductFormFeature>
+					<ProductFormFeatureType>09</ProductFormFeatureType>
+					<ProductFormFeatureValue>03</ProductFormFeatureValue>
+					<ProductFormFeatureDescription>Accessibility Specification 1.0 AA</ProductFormFeatureDescription>
+				</ProductFormFeature>
+				<ProductFormFeature>
+					<!--No reading system accessibility options disabled-->
+					<ProductFormFeatureType>09</ProductFormFeatureType>
+					<ProductFormFeatureValue>10</ProductFormFeatureValue>
+				</ProductFormFeature>
+				<ProductFormFeature>
+					<!--Table of contents navigation-->
+					<ProductFormFeatureType>09</ProductFormFeatureType>
+					<ProductFormFeatureValue>11</ProductFormFeatureValue>
+				</ProductFormFeature>
+				<ProductFormFeature>
+					<!--Reading order-->
+					<ProductFormFeatureType>09</ProductFormFeatureType>
+					<ProductFormFeatureValue>13</ProductFormFeatureValue>
+				</ProductFormFeature>
+				<ProductFormFeature>
+					<!--Language tagging provided-->
+					<ProductFormFeatureType>09</ProductFormFeatureType>
+					<ProductFormFeatureValue>22</ProductFormFeatureValue>
+				</ProductFormFeature>
+				<ProductFormFeature>
+					<!--Accessibility checking-->
+					<ProductFormFeatureType>09</ProductFormFeatureType>
+					<ProductFormFeatureValue>97</ProductFormFeatureValue>
+					<ProductFormFeatureDescription>Compatibilità dell'accessibilità validata con il tool ACE by DAISY</ProductFormFeatureDescription>
+				</ProductFormFeature>
+			</DescriptiveDetail>
+		</Product>
+	</ONIXMessage>
+
+

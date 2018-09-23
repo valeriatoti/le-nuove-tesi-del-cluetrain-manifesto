@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="754b9b01-3711-41cb-983e-4540478e1b32" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Le nuove tesi del Cluetrain Manifesto</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint2">
+      <navLabel>
+        <text>Una volta eravamo giovani nel Giardino...</text>
+      </navLabel>
+      <content src="Text/Section001.xhtml"/>
+      <navPoint id="navPoint3">
+        <navLabel>
+          <text>Internet siamo noi, connessi</text>
+        </navLabel>
+        <content src="Text/Section001.xhtml#sigil_toc_id_1"/>
+      </navPoint>
+      <navPoint id="navPoint4">
+        <navLabel>
+          <text>Internet non è niente e non ha scopo</text>
+        </navLabel>
+        <content src="Text/Section001.xhtml#sigil_toc_id_2"/>
+      </navPoint>
+      <navPoint id="navPoint5">
+        <navLabel>
+          <text>La Rete non è contenuto</text>
+        </navLabel>
+        <content src="Text/Section001.xhtml#sigil_toc_id_3"/>
+      </navPoint>
+      <navPoint id="navPoint6">
+        <navLabel>
+          <text>La Rete non è un medium</text>
+        </navLabel>
+        <content src="Text/Section001.xhtml#sigil_toc_id_4"/>
+      </navPoint>
+      <navPoint id="navPoint7">
+        <navLabel>
+          <text>Il Web è un grande mondo</text>
+        </navLabel>
+        <content src="Text/Section001.xhtml#sigil_toc_id_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint8">
+      <navLabel>
+        <text>Ma come ci siamo traviati, sorelle e fratelli…</text>
+      </navLabel>
+      <content src="Text/Section002.xhtml"/>
+      <navPoint id="navPoint9">
+        <navLabel>
+          <text>Come abbiamo potuto permettere di trasformare la conversazione in un'arma?</text>
+        </navLabel>
+        <content src="Text/Section002.xhtml#sigil_toc_id_6"/>
+      </navPoint>
+      <navPoint id="navPoint10">
+        <navLabel>
+          <text>«Siamo d'accordo su tutto. Ti trovo affascinante!»</text>
+        </navLabel>
+        <content src="Text/Section002.xhtml#sigil_toc_id_7"/>
+      </navPoint>
+      <navPoint id="navPoint11">
+        <navLabel>
+          <text>Il marketing rende ancor più difficile parlare</text>
+        </navLabel>
+        <content src="Text/Section002.xhtml#sigil_toc_id_8"/>
+      </navPoint>
+      <navPoint id="navPoint12">
+        <navLabel>
+          <text>Una Guantanamo in Rete</text>
+        </navLabel>
+        <content src="Text/Section002.xhtml#sigil_toc_id_9"/>
+      </navPoint>
+      <navPoint id="navPoint13">
+        <navLabel>
+          <text>La gravità è bella, finché non ci risucchia tutti in un buco nero</text>
+        </navLabel>
+        <content src="Text/Section002.xhtml#sigil_toc_id_10"/>
+      </navPoint>
+      <navPoint id="navPoint14">
+        <navLabel>
+          <text>La privacy in un'età di spie</text>
+        </navLabel>
+        <content src="Text/Section002.xhtml#sigil_toc_id_11"/>
+      </navPoint>
+      <navPoint id="navPoint15">
+        <navLabel>
+          <text>La privacy in un'età di volpi</text>
+        </navLabel>
+        <content src="Text/Section002.xhtml#sigil_toc_id_12"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint16">
+      <navLabel>
+        <text>Costruire e piantare</text>
+      </navLabel>
+      <content src="Text/Section003.xhtml"/>
+      <navPoint id="navPoint17">
+        <navLabel>
+          <text>Kumbiyah suona sorprendentemente bene in una camera di riverbero [N.d.T.]</text>
+        </navLabel>
+        <content src="Text/Section003.xhtml#sigil_toc_id_13"/>
+      </navPoint>
+      <navPoint id="navPoint18">
+        <navLabel>
+          <text>Un sacco di prediche</text>
+        </navLabel>
+        <content src="Text/Section003.xhtml#sigil_toc_id_14"/>
+      </navPoint>
+      <navPoint id="navPoint19">
+        <navLabel>
+          <text>Stare insieme: la causa e la soluzione di ogni problema</text>
+        </navLabel>
+        <content src="Text/Section003.xhtml#sigil_toc_id_15"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
