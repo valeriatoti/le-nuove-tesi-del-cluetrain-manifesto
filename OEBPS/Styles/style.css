@@ -181,7 +181,7 @@ aside {
    line-height: normal;
    font-size: smaller;
    border-top: 0.065em dotted rgb(200,200,200);
-	 padding-top: 0.5em;
+	 padding-top: 0.65em;
 	 margin-top: 1.65em;
 }
 
@@ -216,7 +216,6 @@ span.small-caps-normal {
 
 .center {
   text-align: center !important;
-  text-indent: 0;
 }
 
 p.line-small {
